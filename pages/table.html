@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиця</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Розклад</h2>
+    <table>
+        <caption>Тижневий розклад</caption>
+        <thead>
+            <tr>
+                <th>День</th>
+                <th>Предмет</th>
+                <th>Час</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Пн</td><td>Інформатика</td><td>08:30</td></tr>
+            <tr><td>Вт</td><td>Математика</td><td>10:15</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="3">Може змінюватися</td></tr>
+        </tfoot>
+    </table>
+</body>
+</html>
